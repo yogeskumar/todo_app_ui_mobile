@@ -1,0 +1,176 @@
+.upper-container {
+  width: 35%;
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.icon-div {
+  margin-left: 80px;
+  display: inline-block;
+  color: rgb(168, 157, 157);
+  font-size: 25px;
+}
+
+.icon {
+  margin: auto;
+  width: 46px;
+  height: 44px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  font-size: 40px;
+}
+
+.trip-to-paris-heading {
+  margin-left: 50px;
+  display: inline;
+  font-size: 45px;
+}
+
+.inside-lower-div {
+  margin: auto;
+  width: 25%;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.trip-to-paris-text {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: rgb(255, 147, 147);
+  text-align: center;
+  font-size: 50px;
+}
+
+.hr1 {
+  width: 322px;
+  float: right;
+}
+
+.completed-task {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.my-input {
+  width: 20px;
+  height: 20px;
+}
+
+.input-task {
+  margin-left: 45px;
+}
+
+.add-plus {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  color: red;
+  background-color: white;
+  font-size: 40px;
+}
+
+.mybutton:hover {
+  background-color: brown;
+  height: 50px;
+  width: 150px;
+}
+
+@media screen and (max-width: 370px) {
+  .upper-container {
+    width: 98%;
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+  }
+
+  .icon-div {
+    margin: auto;
+    display: inline-block;
+    color: rgb(168, 157, 157);
+  }
+
+  .icon {
+    margin: auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    font-size: 40px;
+  }
+
+  .trip-to-paris-heading {
+    width: 230px;
+    float: right;
+    font-size: 35px;
+  }
+
+  .inside-lower-div {
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+    position: relative;
+  }
+
+  .trip-to-paris-text {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: rgb(255, 147, 147);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hr1 {
+    width: 230px;
+    float: right;
+  }
+
+  .completed-task {
+    margin-top: 5px;
+    width: 230px;
+    float: right;
+    text-align: left;
+    font-size: 30px;
+    color: red;
+    text-decoration: line-through;
+  }
+
+  .my-input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .input-task {
+    width: 230px;
+    float: right;
+  }
+
+  .add-plus {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    color: red;
+    background-color: white;
+    font-size: 40px;
+  }
+
+  .mybutton:hover {
+    background-color: brown;
+    height: 15%;
+    width: 35%;
+  }
+}

@@ -1,0 +1,163 @@
+.parent-container {
+  max-width: 350px;
+  margin: auto;
+  border: none;
+}
+
+.upper-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mytextsize {
+  font-size: 50px;
+  font-weight: lighter;
+  color: rgb(100, 100, 100);
+}
+
+.for-icon {
+  background-color: white;
+  color: red;
+  border-radius: 50% 60%;
+}
+
+.input1 {
+  width: 320px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+.input2 {
+  width: 320px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+
+.input3 {
+  width: 320px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+
+.input4 {
+  width: 320px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+
+.input5 {
+  width: 320px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 370px) {
+  .parent-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: none;
+    margin: auto;
+  }
+  .upper-div {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .mytextsize {
+    font-size: 45px;
+  }
+  .for-icon {
+    background-color: white;
+    color: red;
+    border-radius: 50% 60%;
+  }
+
+  .input1 {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+  }
+  .input2 {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+  }
+
+  .input3 {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+  }
+
+  .input4 {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+  }
+
+  .input5 {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+    border-collapse: collapse;
+  }
+}
