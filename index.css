@@ -75,6 +75,11 @@
   box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
   border-collapse: collapse;
 }
+.mybutton:hover {
+  background-color: brown;
+  height: 50px;
+  width: 150px;
+}
 
 @media screen and (max-width: 370px) {
   .parent-container {
@@ -159,5 +164,10 @@
     border-radius: 5px;
     box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
     border-collapse: collapse;
+  }
+  .mybutton:hover {
+    background-color: brown;
+    height: 15%;
+    width: 35%;
   }
 }

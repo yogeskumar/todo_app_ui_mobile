@@ -1,25 +1,23 @@
 .upper-container {
-  width: 35%;
+  width: 25%;
   display: flex;
   margin: auto;
   justify-content: flex-start;
 }
 
-.icon-div {
-  margin-left: 80px;
-  display: inline-block;
-  color: rgb(168, 157, 157);
-  font-size: 25px;
+.icon-margin {
+  margin: auto;
+  margin-left: 5px;
 }
-
 .icon {
   margin: auto;
-  width: 46px;
-  height: 44px;
+  width: 53.6px;
+  height: 100%;
   border-radius: 50%;
   color: white;
   background-color: red;
   font-size: 40px;
+  color: rgb(168, 157, 157);
 }
 
 .trip-to-paris-heading {
@@ -41,23 +39,26 @@
 }
 
 .trip-to-paris-text {
+  float: right;
+  width: 70%;
   margin-bottom: 5px;
   font-weight: 600;
   color: rgb(255, 147, 147);
-  text-align: center;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .hr1 {
-  width: 322px;
+  width: 70%;
   float: right;
 }
 
 .completed-task {
-  text-align: center;
-  font-size: 40px;
+  margin-top: 5px;
+  width: 70%;
+  float: right;
+  text-align: left;
+  font-size: 30px;
   color: red;
-  text-align: center;
   text-decoration: line-through;
 }
 
@@ -67,7 +68,9 @@
 }
 
 .input-task {
-  margin-left: 45px;
+  width: 70%;
+  float: right;
+  float: right;
 }
 
 .add-plus {
@@ -93,20 +96,19 @@
     justify-content: flex-start;
   }
 
-  .icon-div {
+  .icon-margin {
     margin: auto;
-    display: inline-block;
-    color: rgb(168, 157, 157);
+    margin-left: 5px;
   }
-
   .icon {
     margin: auto;
-    width: 44px;
-    height: 44px;
+    width: 53.6px;
+    height: 100%;
     border-radius: 50%;
     color: white;
     background-color: red;
     font-size: 40px;
+    color: rgb(168, 157, 157);
   }
 
   .trip-to-paris-heading {
