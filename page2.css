@@ -129,10 +129,11 @@
   }
 
   .trip-to-paris-text {
+    float: right;
+    width: 230px;
     margin-bottom: 5px;
     font-weight: 600;
     color: rgb(255, 147, 147);
-    text-align: center;
     font-size: 30px;
   }
 
